@@ -1,0 +1,43 @@
+@import '../../assets/scss/global.scss';
+$mb-const : 5px;
+
+
+.result-page{
+    background: $color-light-grey;
+    padding: 50px 20px;
+    @media (max-width: $sm) { 
+      padding-left: 5px;
+      padding-left: 5px;
+   }
+}
+
+.content-area{
+    margin: auto;
+    width: 300px;
+}
+.page-heading{
+    font-size: 1rem;
+    margin-bottom: 2 * $mb-const;
+}
+.customer-rate{
+    font-size: 2.5rem;
+    text-align: center;
+    color: blue;
+}
+.result-section{
+    margin-bottom: 4 * $mb-const;
+}
+.section-heading{
+    margin-bottom: $mb-const; 
+}
+.currency-code{
+
+}
+.currency-value{
+    margin-left: 2 * $mb-const;
+    color: green;
+}
+.button-block{
+    margin-top: 8 * $mb-const;  
+    text-align: center;
+}

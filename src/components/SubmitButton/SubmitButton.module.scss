@@ -1,0 +1,12 @@
+
+@import '../../assets/scss/global.scss';
+
+
+.submit-button{
+    background-color: darkblue;
+    width: 250px;
+    color: $color-white;
+    font-size: 1rem;
+    padding: 15px 0;
+    border-radius: 25px;
+}

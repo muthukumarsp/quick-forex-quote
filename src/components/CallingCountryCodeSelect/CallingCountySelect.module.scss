@@ -1,0 +1,17 @@
+@import '../../assets/scss/global.scss';
+
+
+.field-wrapper{
+}
+.label{
+    composes: label from '../CustomField/CustomField.module.scss';
+}
+.input-element > div {
+    border-color: $color-gray; 
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.error{
+    composes: error from '../CustomField/CustomField.module.scss';
+}

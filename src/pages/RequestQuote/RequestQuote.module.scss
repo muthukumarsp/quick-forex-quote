@@ -1,0 +1,55 @@
+@import '../../assets/scss/global.scss';
+
+.submit-button-wrapper {
+    margin: 30px auto; 
+}
+.name-block, 
+.currency-block {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $sm) { 
+        flex-direction: column;
+    }
+}
+.mobile-field {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+.mobile-field  input {
+    width: 100%;
+    margin-top:5px;
+    border: 1px solid $color-gray; 
+    padding: 11px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-top: 12px;
+    border-left: 1px solid $color-gray;
+}
+.amount-input {
+    width: 50%;
+    @media (max-width: $sm) { 
+        width: 100%;
+    }
+}
+
+.submit-button-block {
+    margin: 20px auto;
+    text-align: center;
+}
+.top-section, .bottom-section{
+    padding: 20px;
+}
+.bottom-section{
+    background: $color-light-grey;
+    margin-bottom: 40px;
+}
+:global{
+   .name-item, .currency-item {
+      margin-right: 20px; 
+        @media (max-width: $sm) { 
+            margin-bottom: 20px;
+        }
+    }
+}

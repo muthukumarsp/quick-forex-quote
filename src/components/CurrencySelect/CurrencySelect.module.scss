@@ -1,0 +1,15 @@
+@import '../../assets/scss/global.scss';
+
+
+.field-wrapper{
+    composes: field-wrapper from '../CustomField/CustomField.module.scss';
+}
+.label{
+    composes: label from '../CustomField/CustomField.module.scss';
+}
+.input-element{
+    width: 100%;
+}
+.error{
+    composes: error from '../CustomField/CustomField.module.scss';
+}
