@@ -1,4 +1,4 @@
-
+# Steps to build and run the application
 ```
 yarn
 npm run start
